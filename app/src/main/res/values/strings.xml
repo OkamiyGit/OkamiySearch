@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">OkamiySearch</string>
+    <string name="search_hint">请输入搜索内容</string>
+    <string name="search_cancle">取消</string>
+    <string name="no_data_msg">无搜索结果</string>
+    <string name="search_tv">点击执行搜索</string>
+    <string name="empty_content">输入的内容不能为空！</string>
+
+    <string-array name="str_list">
+        <item>主人，奴婢在此等候多时了！</item>
+        <item>主人，近来一切安好！</item>
+        <item>亲爱的，我想死你了！</item>
+        <item>欢迎回来，我亲爱的主人！</item>
+        <item>我是小灵，很高兴为您服务！</item>
+        <item>Okamiy！</item>
+        <item>你好！</item>
+        <item>随机字符串！</item>
+        <item>随机！</item>
+        <item>哈哈！</item>
+        <item>输入的内容不</item>
+        <item>OK</item>
+        <item>再测试！</item>
+        <item>内容应该来自于网络！</item>
+        <item>输入的内容不能为空！</item>
+        <item>哈哈哈哈哈！</item>
+        <item>爱爱爱I爱爱I爱啊！</item>
+        <item>辛苦辛苦！</item>
+        <item>假数据好辛苦！</item>
+        <item>好辛苦</item>
+        <item>造数据很累</item>
+        <item>累死了！</item>
+        <item>服务器</item>
+        <item>6666666</item>
+        <item>666699999</item>
+        <item>121212121</item>
+    </string-array>
+</resources>

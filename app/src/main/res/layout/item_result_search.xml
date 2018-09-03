@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="113dp"
+    android:background="@color/app_theme_white_color"
+    >
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/iv_photo"
+        android:textColor="@color/search_title"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/iv_photo"
+        android:textColor="@color/app_text_96_color"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_sort"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_toRightOf="@+id/iv_photo"
+        android:background="@drawable/shape_corner_grey_null_bg"
+        android:textColor="@color/app_text_96_color"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/search_arrow"/>
+
+    <TextView
+        style="@style/h_line"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
